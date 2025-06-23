@@ -1,5 +1,5 @@
 {
-  "name": "@webaverse-studios/charactercreator",
+  "name": "@ashon/charactercreator",
   "version": "0.2.6",
   "scripts": {
     "dev": "vite --host",
@@ -57,5 +57,11 @@
     "eslint-plugin-react": "^7.31.11",
     "prettier": "^2.3.2",
     "vite": "^4.0.0"
-  }
+  },
+  "main": "dist/character-creator.umd.js",
+  "module": "dist/character-creator.es.js",
+  "files": [
+    "dist",
+    "public"
+  ]
 }
