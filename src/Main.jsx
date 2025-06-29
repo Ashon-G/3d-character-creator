@@ -15,6 +15,7 @@ import "./lib/localization/i18n"
 
 import App from "./App"
 import { LanguageProvider } from "./context/LanguageContext"
+import { registerSW } from 'virtual:pwa-register'
 
 const getLibrary = (provider) => {
   const library = new Web3Provider(provider)
@@ -43,3 +44,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </Web3ReactProvider>
   </React.StrictMode>,
 )
+
+registerSW()

@@ -15,3 +15,7 @@ npm run dev
 yarn install
 yarn run dev
 ```
+
+## PWA Support
+
+The app is configured as a Progressive Web App. You can install it on supported browsers and it will work offline after the first load.
